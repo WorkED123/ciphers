@@ -106,18 +106,18 @@
 <h2>Applying Simple Ciphers</h2>
 <ul>
 	<li>Delving into the world of simple ciphers, students will have hands-on experience with some basic yet illustrative cryptographic systems. Here are some key points we'll cover:</li>
- <ul>
+ <ul><br>
 	 <li><ins>Substitution Cipher</ins></li>
 	 <ul>
-		 <li> Explore the basic premise where each letter or character in the plaintext is replaced by another character according to a fixed rule. The Caesar Cipher is a type of substitution cipher, but there are many others with different rules for substitution.</li>
+		 <li> Explore the basic premise where each letter or character in the plaintext is replaced by another character according to a fixed rule. The Caesar Cipher is a type of substitution cipher, but there are many others with different rules for substitution.</li><br>
 	 </ul>
 	 <li><ins>Transposition Cipher</ins></li>
 	 <ul>
-		 <li>Discover another method of encryption where characters are rearranged in a specific manner to create the ciphertext. Learn about common transposition techniques and how they differ from substitution ciphers.</li>
+		 <li>Discover another method of encryption where characters are rearranged in a specific manner to create the ciphertext. Learn about common transposition techniques and how they differ from substitution ciphers.</li><br>
 	 </ul>
 	<li><ins>Practice</ins></li> 
 	 <ul>
-		 <li>Engage in exercises to encrypt and decrypt messages using different simple ciphers, understanding the essence of the encryption and decryption process, and the role of the key in these transformations.</li>
+		 <li>Engage in exercises to encrypt and decrypt messages using different simple ciphers, understanding the essence of the encryption and decryption process, and the role of the key in these transformations.</li><br>
 	 </ul>
 	 <li><ins>Analysis</ins></li>
 	 <ul>
@@ -129,18 +129,18 @@
 <h2>Analyzing Cryptographic Systems</h2>
 <ul>
 	<li>Venturing into the analysis of cryptographic systems, students will learn about some fundamental concepts and metrics used to evaluate the security of a cryptographic system. Here are some key points we'll cover:</li>
- <ul>
+ <ul><br>
 	 <li><ins>Key Space</ins></li>
 	 <ul>
-		 <li>Understand the concept of key space, which refers to the total number of possible keys a cryptographic system can have. Learn why a larger key space often translates to a stronger cipher.</li>
+		 <li>Understand the concept of key space, which refers to the total number of possible keys a cryptographic system can have. Learn why a larger key space often translates to a stronger cipher.</li><br>
 	 </ul>
 	 <li><ins>Entropy</ins></li>
 	 <ul>
-		 <li>Delve into the concept of entropy, which measures the level of unpredictability or randomness in a cryptographic system. Understand why higher entropy usually means better security.</li>
+		 <li>Delve into the concept of entropy, which measures the level of unpredictability or randomness in a cryptographic system. Understand why higher entropy usually means better security.</li><br>
 	 </ul>
 	 <li><ins>Vulnerabilities</ins></li>
 	 <ul>
-		 <li>Learn about common vulnerabilities that can plague cryptographic systems, like susceptibility to brute force attacks, where an attacker tries all possible keys to decrypt a ciphertext.</li>
+		 <li>Learn about common vulnerabilities that can plague cryptographic systems, like susceptibility to brute force attacks, where an attacker tries all possible keys to decrypt a ciphertext.</li><br>
 	 </ul>
 	 <li><ins>Cryptanalytic Attacks</ins></li>
 	 <ul>
