@@ -1,18 +1,20 @@
-<h1> Lesson 2.5: Network Troubleshooting  </h1>
+<h1> Lesson 4.2: Ciphers and Cryptanalysis  </h1>
 <h2> Summary</h2>
 
-<p1>By the end of this module, learners should be able to describe the essential components of a network, including devices (routers, switches, hubs, etc.), topologies, and common protocols. This foundational knowledge will serve as the basis for identifying where potential issues arise.</p1>
+<p1>After completing this lesson, students will be able to define what a cipher does, understand the basics of cryptanalysis, be able to use a caesar cipher, and further extend their understanding in the practical applications and analysis of simple cryptographic systems.</p1>
 <br>
 
 <h2>Learning Objectives</h2>
 <ul>
-<li>Recognize Common Network Issues and Their Solutions.</li>
+<li>Students will learn how to look at cryptographic systems and understand some factors that make them strong or weak.</li>
   <br>
-<li>Develop a Systematic Troubleshooting Methodology.</li><br>
+<li>Students will practice encoding and decoding messages using the Caesar Cipher.</li><br>
 
-<li>Implement Preventative Measures and Best Practices.</li><br>
+<li>Students will try out simple ciphers to understand how they work in practice.</li><br>
+
+<li>Students will learn what a cipher is and how it changes plain text into coded messages.</li><br>
   
-<li>Become proficient in using a variety of network diagnostic tools such as ping, traceroute, netstat, Wireshark, and others.</li>
+<li>Students will get an overview of basic techniques to decode encrypted messages without a key.</li>
 
 </ul>
 
@@ -21,27 +23,40 @@
 <ul>
 <li>
 
-  **Ping**</li>
-  
-<li>
-
-**Wireshark**</li>
+**Cipher**</li>
   
 <li>
   
-**Traceroute**</li>
+**Cryptanalysis**</li>
 
 <li>
 
-**Methodology**</li>
+**Caesar Cipher**</li>
   
 <li>
   
-**Netstat**</li>
+**Encryption**</li>
 
 <li>
   
-**OSI Model**</li>
+**Ciphertext**</li>
+
+<li>
+  
+**Plaintext**</li>
+
+<li>
+  
+**Decryption**</li>
+
+<li>
+  
+**Key**</li>
+
+<li>
+  
+**Cryptanalyst**</li>
+
 
 </ul>
 
@@ -69,133 +84,68 @@
 <p1>Any topical or subject matter to prepare for the lesson. In Advanced Cyber Lessons, previous Lessons can be referenced. </p1>
 <br>
 
-
-<h2>Introduction</h2>
-Today, we'll delve deep into the world of network troubleshooting. As our reliance on networks grows, so does ensuring they run smoothly. Whether you're a budding IT professional or just curious about how networks function, today's lecture will equip you with the knowledge and skills to approach network issues methodically.
-
-<h2>Understanding Network Fundamentals and Architecture</h2>
-
-Before we can fix a problem, we need to understand the system. Every network, regardless of its size or complexity, is built upon foundational components:
-
-Devices are tangible components like routers, switches, and hubs. Each plays a unique role in directing, transmitting, or amplifying data.
-
+<h2>Understanding Ciphers</h2>
 <ul>
-	<li><h4><ins>Topologies:</ins></li></h4>
-	<ul>
-		<li>This refers to the physical or logical layout of a network. The structure can influence where and how issues arise, whether it's a star, ring, or mesh topology.</li>
-	</ul>
-	<li><h4><ins>Protocols:</ins></li></h4>
-	<ul>
-		<li> These are the rules that govern data transmission. Familiar names like TCP/IP or HTTP dictate how data packets are sent, received, and interpreted.</li>
-	</ul>
+	<li>A cipher is akin to a secret code, a method that transforms plain text into encrypted text, known as ciphertext, to keep its content secret. The process of converting plain text into ciphertext is known as encryption, while the reverse process is known as decryption. The key is a crucial piece of information used in cipher algorithms to perform these transformations.</li><br>
+	<li><ins>Example:</ins> Substitution Cipher, where each letter in the plain text is replaced by another letter.</li>
 </ul>
-
-
-<h2>Mastering Diagnostic Tools and Software</h2>
-Network professionals have tools like a doctor using a stethoscope or X-ray machine. Some of the most essential include:
-
+<h2>Embarking on Cryptanalysis</h2>
 <ul>
-	<li><h4><ins>Ping:</ins></h4></li>
-	<ul>
-		<li>Tests the reachability of a host and measures the roundtrip time for packets.
-		</li>
-	</ul>
-	<li><h4><ins>Traceroute:</ins></h4></li>
-	<ul>
-		<li>Displays the path that a packet takes to reach a destination. 
-		</li>
-	</ul>
-	<li><h4><ins>Netstat:</ins></h4></li>
-	<ul>
-		<li>Provides network statistics and information about current network connections. 
-		</li>
-	</ul>
-	<li><h4><ins>Wireshark:</ins></h4></li>
-	<ul>
-		<li>A packet analyzer that lets you see what's happening on your network at a microscopic level.
-		</li>
-	</ul>
+	<li>Cryptanalysis is like solving a puzzle, where cryptanalysts strive to decode encrypted messages without the key. They analyze the patterns, statistics, and structures within the ciphertext to unveil the original message.</li>
+	
 </ul>
-
-Each tool provides a unique lens to view the network; mastering them is crucial for effective troubleshooting.
-
-<h2>Systematic Troubleshooting Methodology</h2>
-
-When faced with a network issue, jumping in and making changes is tempting. However, a systematic approach is critical: <br>
-
+<h2>Mastering Caesar Cipher</h2>
 <ul>
-	<li>1. Identify Symptoms: Gather as much information as possible before anything else. </li>
-	<br>
-	<ul>
-		<li>Are certain users affected? </li><br>
-		<li>Is it a specific type of traffic or application?</li><br>
-	</ul>
-	<li>2. Isolate the Problem: Narrow down the cause. </li>
-	<br>
-	<ul>
-		<li>Is it a hardware failure? </li><br>
-		<li>A software glitch? </li><br>
-		<li>Or a misconfiguration?</li><br>
-	</ul>
-	<li>3. Implement Solutions: Once the root cause is identified, apply the necessary fix, whether replacing a faulty cable, updating software, or tweaking configurations.</li>
+	<li>The Caesar Cipher is a type of substitution cipher where each character in the plain text is shifted a certain number of places down or up the alphabet.</li><br>
+	<li><ins>Example:</ins> With a shift of 3, A would be encoded as D, B as E, and so on.</li><br>
+	<li><ins>Practice:</ins> Students will engage in exercises to encode and decode messages using the Caesar Cipher, understanding its simplicity and vulnerabilities.</li>
 </ul>
-
-
-<h2>Recognizing Common Network Issues</h2>
-
-Experience teaches us that specific issues crop up more frequently than others:
-
+<h2>Applying Simple Ciphers</h2>
 <ul>
-	<li><h4><ins>IP Conflicts:</ins></h4></li>
-	<ul>
-		<li>When two devices on the same network are assigned the same IP address.</li>
-	</ul>
-	<li><h4><ins>DNS Issues: </ins></h4></li>
-	<ul>
-		<li>Problems resolving domain names to IP addresses can prevent websites from loading.  </li>
-	</ul>
-	<li><h4><ins>Connectivity Losses: </ins></h4></li>
-	<ul>
-		<li>This can be due to many reasons, from physical cable damages to router malfunctions. </li>
-	</ul>
-	<li><h4><ins>Slow Performance:</ins></h4></li>
-	<ul>
-		<li>Often due to bandwidth limitations, high network traffic, or even malware.  </li>
-	</ul>
-	<li><h4><ins>Security Breaches: </ins></h4></li>
-	<ul>
-		<li>Unauthorized access or attacks on the network.</li>
-	</ul>
+	<li>Delving into the world of simple ciphers, students will have hands-on experience with some basic yet illustrative cryptographic systems. Here are some key points we'll cover:</li>
+ <ul>
+	 <li><ins>Substitution Cipher</ins></li>
+	 <ul>
+		 <li> Explore the basic premise where each letter or character in the plaintext is replaced by another character according to a fixed rule. The Caesar Cipher is a type of substitution cipher, but there are many others with different rules for substitution.</li>
+	 </ul>
+	 <li><ins>Transposition Cipher</ins></li>
+	 <ul>
+		 <li>Discover another method of encryption where characters are rearranged in a specific manner to create the ciphertext. Learn about common transposition techniques and how they differ from substitution ciphers.</li>
+	 </ul>
+	<li><ins>Practice</ins></li> 
+	 <ul>
+		 <li>Engage in exercises to encrypt and decrypt messages using different simple ciphers, understanding the essence of the encryption and decryption process, and the role of the key in these transformations.</li>
+	 </ul>
+	 <li><ins>Analysis</ins></li>
+	 <ul>
+		 <li>Analyze the strength and weaknesses of these simple ciphers, understanding why they may not be suitable for securing critical information in today's digital world.</li>
+	 </ul>
+ </ul>
+	
 </ul>
-
-By recognizing the signs of these common issues, you can often predict and prevent them from escalating.
-
-
-<h2>Implementing Preventative Measures</h2>
-As the saying goes, "An ounce of prevention is worth a pound of cure." In the realm of networks:
+<h2>Analyzing Cryptographic Systems</h2>
 <ul>
-	<li><h4><ins>Regular Updates: </ins></h4></li>
-	<ul>
-		<li>Ensure all devices and software are up-to-date. This not only provides new features but often patches known vulnerabilities.</li>
-	</ul>
-	<li><h4><ins>Backups:</ins></h4></li>
-	<ul>
-		<li>Regularly back up configurations and critical data. In the event of a failure, this can drastically reduce recovery time.  </li>
-	</ul>
-	<li><h4><ins>Monitoring:</ins></h4></li>
-	<ul>
-		<li>Use tools to monitor network traffic, performance, and anomalies constantly. This proactive approach can alert you to issues before they become critical.</li>
-	</ul>
+	<li>Venturing into the analysis of cryptographic systems, students will learn about some fundamental concepts and metrics used to evaluate the security of a cryptographic system. Here are some key points we'll cover:</li>
+ <ul>
+	 <li><ins>Key Space</ins></li>
+	 <ul>
+		 <li>Understand the concept of key space, which refers to the total number of possible keys a cryptographic system can have. Learn why a larger key space often translates to a stronger cipher.</li>
+	 </ul>
+	 <li><ins>Entropy</ins></li>
+	 <ul>
+		 <li>Delve into the concept of entropy, which measures the level of unpredictability or randomness in a cryptographic system. Understand why higher entropy usually means better security.</li>
+	 </ul>
+	 <li><ins>Vulnerabilities</ins></li>
+	 <ul>
+		 <li>Learn about common vulnerabilities that can plague cryptographic systems, like susceptibility to brute force attacks, where an attacker tries all possible keys to decrypt a ciphertext.</li>
+	 </ul>
+	 <li><ins>Cryptanalytic Attacks</ins></li>
+	 <ul>
+		 <li>Get introduced to various cryptanalytic attacks such as frequency analysis, which is often effective against simple substitution ciphers.</li>
+	 </ul>
+ </ul>
+	
 </ul>
-
-
-
-
-
-
-<h2>Conclusion</h2>
-
-Network troubleshooting is as much an art as it is a science. With a solid understanding of network fundamentals, mastery of diagnostic tools, a systematic approach, and a proactive mindset, you'll be well-equipped to tackle any network challenge that comes your way. Remember, in the world of networks, knowledge truly is power. Happy troubleshooting!
 
 
 
@@ -203,12 +153,12 @@ Network troubleshooting is as much an art as it is a science. With a solid under
 
 
 
+<a href="https://docs.google.com/presentation/d/14y_aNubJmR5gFxkadZ_q9p9It9pNBBQn/edit?usp=sharing&ouid=110228847857413878764&rtpof=true&sd=true">Cryptography Hash Functions</a>
+
 
 <h2> Hands-On Labs</h2>
 
 
 <h2> Additional Resources</h2>
 
-<a href="https://www.comptia.org/content/guides/a-guide-to-network-troubleshooting">A Guide to Network Troubleshooting</a> - Basic Steps, Tips and Tools. <br>
 
-<a href="https://www.techtarget.com/searchnetworking/answer/What-are-the-3-most-common-network-issues-to-troubleshoot">Most Common Network Issues </a> - Slow network speeds, weak Wi-Fi signals and damaged cabling are just some of the most common network connection issues that IT departments need to troubleshoot.
