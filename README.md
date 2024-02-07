@@ -61,22 +61,25 @@
 </ul>
 
 <h2>NICE Framework KSAs</h2>
+
 <ul>
-<li>K0001 - Knowledge of computer networking concepts, protocols, and network security methodologies.</li>
+<li>K0018 - Knowledge of encryption algorithms</li>
 <br>
-<li>K0010 - Knowledge of communication methods, principles, and ideas that support the network infrastructure.</li>
+<li>K0019 - Knowledge of cryptography and cryptographic key management concepts</li>
 <br>
-<li>K0011 - Knowledge of capabilities and applications of network equipmentK0029	Knowledge of the organization's Local and Wide Area Network connections.</li>
+<li>K0190 - Knowledge of encryption methodologies.</li>
 <br>
-<li>K0034 - Knowledge of network services and protocol interactions that provide network communications.</li>
+<li>K0196 - Knowledge of Import/Export Regulations related to cryptography and other security technologies.</li>
 <br>
-<li>K0057 - Knowledge of network hardware devices and functions.</li>
+<li>K0305 - Knowledge of data concealment (e.g., encryption algorithms and steganography).</li>
 <br>
-<li>K0061 - Knowledge of how traffic flows across the network</li>
+<li>K0308 - Knowledge of cryptology.</li>
 <br>
-<li>K0111 - Knowledge of network tools</li>
+<li>K0403 - Knowledge of cryptologic capabilities, limitations, and contributions to cyber operations.</li>
 <br>
-<li>K0113 - Knowledge of different types of network communication</li>
+<li>S0138 - Skill using Public-Key Infrastructure (PKI) encryption and digital signature capabilities into applications (e.g., S/MIME email, SSL traffic).</li> 
+<br>
+<li>S0164 - Skill in assessing the application of cryptographic standards.</li>
 </ul>
 
 
