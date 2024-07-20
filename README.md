@@ -63,23 +63,23 @@
 <h2>NICE Framework KSAs</h2>
 
 <ul>
-<li>K0018 - Knowledge of encryption algorithms</li>
+<li>K0018: Knowledge of encryption algorithms</li>
 <br>
-<li>K0019 - Knowledge of cryptography and cryptographic key management concepts</li>
+<li>K0019: Knowledge of cryptography and cryptographic key management concepts</li>
 <br>
-<li>K0190 - Knowledge of encryption methodologies.</li>
+<li>K0190: Knowledge of encryption methodologies.</li>
 <br>
-<li>K0196 - Knowledge of Import/Export Regulations related to cryptography and other security technologies.</li>
+<li>K0196: Knowledge of Import/Export Regulations related to cryptography and other security technologies.</li>
 <br>
-<li>K0305 - Knowledge of data concealment (e.g., encryption algorithms and steganography).</li>
+<li>K0305: Knowledge of data concealment (e.g., encryption algorithms and steganography).</li>
 <br>
-<li>K0308 - Knowledge of cryptology.</li>
+<li>K0308: Knowledge of cryptology.</li>
 <br>
-<li>K0403 - Knowledge of cryptologic capabilities, limitations, and contributions to cyber operations.</li>
+<li>K0403: Knowledge of cryptologic capabilities, limitations, and contributions to cyber operations.</li>
 <br>
-<li>S0138 - Skill using Public-Key Infrastructure (PKI) encryption and digital signature capabilities into applications (e.g., S/MIME email, SSL traffic).</li> 
+<li>S0138: Skill using Public-Key Infrastructure (PKI) encryption and digital signature capabilities into applications (e.g., S/MIME email, SSL traffic).</li> 
 <br>
-<li>S0164 - Skill in assessing the application of cryptographic standards.</li>
+<li>S0164: Skill in assessing the application of cryptographic standards.</li>
 </ul>
 
 
@@ -150,6 +150,38 @@
 	
 </ul>
 
+<h2>Conclusion</h2>
+
+Understanding ciphers and the basics of cryptanalysis is fundamental to ensuring data security and privacy in the digital age. Ciphers are essential for encrypting information, transforming readable data into an encoded format that prevents unauthorized access, thereby protecting sensitive communications and data. Mastery of cryptographic principles, including various cipher techniques, enables individuals to implement robust security measures that safeguard against data breaches and unauthorized interception.
+
+Moreover, a foundational knowledge of cryptanalysis, which involves analyzing and breaking ciphers, is crucial for identifying potential weaknesses in encryption methods and enhancing their resilience against attacks. By comprehending both encryption and cryptanalysis, security professionals can better defend against cyber threats and maintain the integrity and confidentiality of critical information.
+
+<h2>Definitions</h2>
+<li><b>Cipher:</b> An algorithm or method used to encode or decode information to protect its confidentiality.<br>
+<br>
+
+<li><b>Cryptanalysis:</b> The practice of analyzing and breaking cryptographic systems to uncover hidden information or weaknesses.<br>
+<br>
+
+<li><b>Caesar Cipher:</b> A substitution cipher that shifts each letter in the plaintext a fixed number of places down the alphabet.<br>
+<br>
+
+<li><b>Encryption:</b> The process of converting plaintext into ciphertext to prevent unauthorized access to the information.<br>
+<br>
+
+<li><b>Ciphertext:</b> The encoded or encrypted output that results from applying a cipher to plaintext.<br>
+<br>
+
+<li><b>Plaintext:</b> The original, readable information or message before it is encrypted.<br>
+<br>
+
+<li><b>Decryption:</b> The process of converting ciphertext back into plaintext to retrieve the original information.<br>
+<br>
+
+<li><b>Key:</b> A piece of information used in conjunction with a cipher to encrypt or decrypt data.<br>
+<br>
+
+<li><b>Cryptanalyst:</b> A specialist who studies cryptographic systems to identify vulnerabilities and develop methods to break or circumvent encryption.
 
 
 <h2> Presentation</h2>
@@ -161,6 +193,7 @@
 
 <h2> Hands-On Labs</h2>
 
+<h2>Games</h2>
 
 <h2> Additional Resources</h2>
 
